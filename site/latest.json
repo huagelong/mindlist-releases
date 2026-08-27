@@ -1,18 +1,17 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.5",
-  "buildNumber": 6,
-  "publishedAt": "2026-08-27T07:12:16.6206786Z",
-  "releaseNotes": "MindList 1.0.5 已发布，包含 Windows 和 Android 更新。",
+  "version": "1.0.6",
+  "buildNumber": 1007,
+  "publishedAt": "2026-08-27T08:08:21.4246509Z",
+  "releaseNotes": "MindList 1.0.6 已发布，包含 Windows 和 Android 更新。",
   "android": {
-    "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.0.5/MindList-android-1.0.5-6.apk",
-    "sha256": "082a805baf348c72c4034b2e7eaf7473da4c3b690cff78be8d341950bbd9b456",
-    "sizeBytes": 106309504
+    "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.0.6/MindList-android-1.0.6-1007.apk",
+    "sha256": "c844f1b2d594e9533253ac981ac6e709848992206ea3c5cbb7d173080d69cd62",
+    "sizeBytes": 106373956
   },
   "windows": {
-    "appInstallerUrl": "https://huagelong.github.io/mindlist-releases/MindList.appinstaller",
-    "msixUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.0.5/MindList-windows-1.0.5-6-x64.msix",
-    "sha256": "fbff6acb6480a1800b9adb8841b0e61ab26cc1dd31c5d7196a778134ebcfcf04",
-    "sizeBytes": 26200387
+    "installerUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.0.6/MindList-windows-1.0.6-1007-x64-setup.exe",
+    "sha256": "98acbe75706aecc3522fe85982c661b8e21700b19fc26342903df2ef0d07f5c0",
+    "sizeBytes": 18523614
   }
 }
