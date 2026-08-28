@@ -1,22 +1,25 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.8",
-  "buildNumber": 1009,
-  "publishedAt": "2026-08-27T10:46:49.5024047Z",
-  "releaseNotes": "MindList 1.0.8 已发布，包含 Windows、Linux 和 Android 更新。",
+  "version": "1.0.12",
+  "buildNumber": 1013,
+  "publishedAt": "2026-08-28T01:59:27.5086611Z",
+  "releaseNotes": "MindList 1.0.12 已发布，包含 Windows、Linux 和 Android 更新。",
   "android": {
-    "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.0.8/MindList-android-1.0.8-1009.apk",
-    "sha256": "aa042bf7f54658c1ca5db0ea4793a9b01abc1d02cbc45f56bc9e2c502bbbe3e7",
-    "sizeBytes": 106603332
+    "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.0.12/MindList-android-1.0.12-1013.apk",
+    "sha256": "0b2bdf579bc6826bf8f7c6a0fab3d7860ce7bbd2b6cc9aeeea5485a5536cae92",
+    "sizeBytes": 106603336
   },
   "windows": {
-    "installerUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.0.8/MindList-windows-1.0.8-1009-x64-setup.exe",
-    "sha256": "9d2715101411bf8174ea5887273b39eb64de3fd0beea988ea12adef53217382d",
-    "sizeBytes": 18552165
+    "installerUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.0.12/MindList-windows-1.0.12-1013-x64-setup.exe",
+    "sha256": "22e2491b64cd0de9cee1a0f4287dd518b2e781be21208ac3daf24d1a174a0f83",
+    "sizeBytes": 18553770
   },
   "linux": {
-    "appImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.0.8/MindList-linux-1.0.8-1009-x86_64.AppImage",
-    "sha256": "6c2d5aa3ea2f20e407bb3cdebaf703eb63b6e694b2f5b7a9b6c4cf0e08bc6b73",
-    "sizeBytes": 31263224
+    "appImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.0.12/MindList-linux-1.0.12-1013-x86_64.AppImage",
+    "sha256": "01fc5e273e1ffdf2cbf58c81a5cac70fc44a61e0c8a89ba09906a40e5c8e6d1e",
+    "sizeBytes": 31267320,
+    "legacyAppImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.0.12/MindList-linux-legacy-1.0.12-1013-x86_64.AppImage",
+    "legacySha256": "e28c75a0e66ecef2a0edfcce77c4edeaa108227eb95455f2fa39e97b4c19c204",
+    "legacySizeBytes": 30325240
   }
 }
