@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "version": "1.1.11",
-  "buildNumber": 1032,
-  "publishedAt": "2026-09-04T09:41:43.9610259Z",
-  "releaseNotes": "MindList 1.1.11 已发布，包含 Windows、Linux 和 Android 更新。",
+  "version": "1.1.18",
+  "buildNumber": 1040,
+  "publishedAt": "2026-09-09T09:17:42.1229898Z",
+  "releaseNotes": "MindList 1.1.18 已发布，包含 Windows、Linux 和 Android 更新。",
   "android": {
-    "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.1.11/MindList-android-1.1.11-1032.apk",
-    "sha256": "36abde9b259431ef6617dc345f64cebde46ad6cb9a62df213cadf496a02e6f11",
-    "sizeBytes": 164044857
+    "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.1.18/MindList-android-1.1.18-1040.apk",
+    "sha256": "e984d3d616994bf8a7971f84705695be93952b0d57f5203d17ca25ff0554c2ed",
+    "sizeBytes": 202158255
   },
   "windows": {
-    "installerUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.1.11/MindList-windows-1.1.11-1032-x64-setup.exe",
-    "sha256": "cc12b9867eb2c55c3626706f9311663be765975dc260e9c29df291a8fc97cb88",
-    "sizeBytes": 23260164
+    "installerUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.1.18/MindList-windows-1.1.18-1040-x64-setup.exe",
+    "sha256": "5b4c5bed472cde3cdbf3d83ec1f7fca06e1055bc4d0403f4ea4deb1ae7f777dd",
+    "sizeBytes": 38207219
   },
   "linux": {
-    "appImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.1.11/MindList-linux-1.1.11-1032-x86_64.AppImage",
-    "sha256": "8a2a7ccf5b9959bd34a37250f475dfc5f58ae3267f52832ea5c8a2249f331526",
-    "sizeBytes": 42863096,
-    "legacyAppImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.1.11/MindList-linux-legacy-1.1.11-1032-x86_64.AppImage",
-    "legacySha256": "f0daadca5cbc90b8918fcbc6d457e363384ede98666cb29d2c78cce0384d48a7",
-    "legacySizeBytes": 41908728
+    "appImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.1.18/MindList-linux-1.1.18-1040-x86_64.AppImage",
+    "sha256": "299f99f1bade1fe82221efa91abecb1b7562723b030aba456fdf4ac67d5183c9",
+    "sizeBytes": 69544440,
+    "legacyAppImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.1.18/MindList-linux-legacy-1.1.18-1040-x86_64.AppImage",
+    "legacySha256": "4e715a609230fdc4e63d23fe261f68affc757a31f3f6c017945b98e61ebee7cf",
+    "legacySizeBytes": 68594168
   }
 }
