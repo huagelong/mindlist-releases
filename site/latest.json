@@ -1,42 +1,42 @@
 {
   "schemaVersion": 1,
-  "version": "1.2.21",
-  "buildNumber": 1065,
-  "publishedAt": "2026-09-19T13:55:40.4988177Z",
-  "releaseNotes": "MindList 1.2.21 已发布，包含 Windows、Linux 和 Android 更新。",
+  "version": "1.2.27",
+  "buildNumber": 1071,
+  "publishedAt": "2026-09-20T08:56:41.8307290Z",
+  "releaseNotes": "MindList 1.2.27 已发布，包含 Windows、Linux 和 Android 更新。",
   "android": {
-    "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.2.21/MindList-android-arm64-v8a-1.2.21-1065.apk",
-    "sha256": "64086b418b5c7581564951d6331177b5b73bb0da4d34f3bfebc073c678c5da6e",
-    "sizeBytes": 89850978,
+    "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.2.27/MindList-android-arm64-v8a-1.2.27-1071.apk",
+    "sha256": "5274b2ba8d7810f3a6b418e7898a64697dbc36cb5023d591d4fd28c27401f2ea",
+    "sizeBytes": 91542069,
     "abis": {
       "armeabi-v7a": {
-        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.2.21/MindList-android-armeabi-v7a-1.2.21-1065.apk",
-        "sha256": "b6f8d7bc87f6d739b7b3f1b7cf294240c3d545cec58b7612878fa98629133843",
-        "sizeBytes": 80755634
+        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.2.27/MindList-android-armeabi-v7a-1.2.27-1071.apk",
+        "sha256": "b89c698e5cce9a143d02780bfc36c82be93595f28a07d0fe5872de105f1ec74b",
+        "sizeBytes": 82282887
       },
       "arm64-v8a": {
-        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.2.21/MindList-android-arm64-v8a-1.2.21-1065.apk",
-        "sha256": "64086b418b5c7581564951d6331177b5b73bb0da4d34f3bfebc073c678c5da6e",
-        "sizeBytes": 89850978
+        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.2.27/MindList-android-arm64-v8a-1.2.27-1071.apk",
+        "sha256": "5274b2ba8d7810f3a6b418e7898a64697dbc36cb5023d591d4fd28c27401f2ea",
+        "sizeBytes": 91542069
       },
       "x86_64": {
-        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.2.21/MindList-android-x86_64-1.2.21-1065.apk",
-        "sha256": "74ecd051a544c38e12edd5a55f95dda938cd262d0e551908a4218331ac7b346f",
-        "sizeBytes": 95284010
+        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.2.27/MindList-android-x86_64-1.2.27-1071.apk",
+        "sha256": "5e760854e9e5c3598d6e21e7b637d2d444274aebe69c5d9302a997f48fdb07f8",
+        "sizeBytes": 97089786
       }
     }
   },
   "windows": {
-    "installerUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.2.21/MindList-windows-1.2.21-1065-x64-setup.exe",
-    "sha256": "7cbabbb336ba8f14130272e3350197d4dbc1fd95dbb4e116376887b53f4ab52f",
-    "sizeBytes": 38157170
+    "installerUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.2.27/MindList-windows-1.2.27-1071-x64-setup.exe",
+    "sha256": "2beead17d82514caa20797e65e4403893bf45204081801bfeacfbffa9fb95d96",
+    "sizeBytes": 38714342
   },
   "linux": {
-    "appImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.2.21/MindList-linux-1.2.21-1065-x86_64.AppImage",
-    "sha256": "60950f00d80222b9f4c41231208a5edbfca3585864e01d9433d34bfafa0eb8d8",
-    "sizeBytes": 69446136,
-    "legacyAppImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.2.21/MindList-linux-legacy-1.2.21-1065-x86_64.AppImage",
-    "legacySha256": "fb9bcfe17f3fb55cfe7c0c256ec6c5919c840720d31f0a38185d4bb19ecb1b82",
-    "legacySizeBytes": 68499960
+    "appImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.2.27/MindList-linux-1.2.27-1071-x86_64.AppImage",
+    "sha256": "ee08f2d906cb84a9b0d1ea6966377c7184367489d0546932bc4f4580995a9e30",
+    "sizeBytes": 76343800,
+    "legacyAppImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.2.27/MindList-linux-legacy-1.2.27-1071-x86_64.AppImage",
+    "legacySha256": "c7f194615c7f4d7f08bbecb9f564d4dad5eb9dd432be09de211275d4e073f928",
+    "legacySizeBytes": 76405240
   }
 }
