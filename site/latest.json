@@ -1,42 +1,42 @@
 {
   "schemaVersion": 1,
-  "version": "1.5.2",
-  "buildNumber": 1085,
-  "publishedAt": "2026-10-08T03:30:05.6070078Z",
-  "releaseNotes": "MindList 1.5.2 已发布，包含 Windows、Linux 和 Android 更新。",
+  "version": "1.5.4",
+  "buildNumber": 1087,
+  "publishedAt": "2026-10-09T01:16:59.9635798Z",
+  "releaseNotes": "MindList 1.5.4 已发布，包含 Windows、Linux 和 Android 更新。",
   "android": {
-    "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.2/MindList-android-arm64-v8a-1.5.2-1085.apk",
-    "sha256": "85c5d2536da5bea70dcb029307dd0825fdd0857cac8f8d78314f69211e125688",
-    "sizeBytes": 91868841,
+    "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.4/MindList-android-arm64-v8a-1.5.4-1087.apk",
+    "sha256": "47ffb350feb5a07438cb4145c89155ac444d8001363b2e909d102b5e5e6e9555",
+    "sizeBytes": 92262625,
     "abis": {
       "armeabi-v7a": {
-        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.2/MindList-android-armeabi-v7a-1.5.2-1085.apk",
-        "sha256": "ddf0c028811e3aa7ff8963e0f4a813ca2d081ba6f516e7748555d8c4fbee0e27",
-        "sizeBytes": 82691579
+        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.4/MindList-android-armeabi-v7a-1.5.4-1087.apk",
+        "sha256": "533967b45de7b7fffd1ab27968d866d2e6b7ba08c6b089888ff2848d8ac7d4e2",
+        "sizeBytes": 83118131
       },
       "arm64-v8a": {
-        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.2/MindList-android-arm64-v8a-1.5.2-1085.apk",
-        "sha256": "85c5d2536da5bea70dcb029307dd0825fdd0857cac8f8d78314f69211e125688",
-        "sizeBytes": 91868841
+        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.4/MindList-android-arm64-v8a-1.5.4-1087.apk",
+        "sha256": "47ffb350feb5a07438cb4145c89155ac444d8001363b2e909d102b5e5e6e9555",
+        "sizeBytes": 92262625
       },
       "x86_64": {
-        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.2/MindList-android-x86_64-1.5.2-1085.apk",
-        "sha256": "bb224ea7efa9e6c69d54095dd005b1ac6dd6c7c8ee17bbbd9ab2b180c9b42c37",
-        "sizeBytes": 97416558
+        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.4/MindList-android-x86_64-1.5.4-1087.apk",
+        "sha256": "66293f9260f84ff30eba17b7c4d3f4cce2d3ac7f1dbd51ce9d155cb1f4c8f239",
+        "sizeBytes": 97810342
       }
     }
   },
   "windows": {
-    "installerUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.2/MindList-windows-1.5.2-1085-x64-setup.exe",
-    "sha256": "9041337aa49ab21db6a4de8929b321be4f9403e26630402e76e5a6eb8213cab8",
-    "sizeBytes": 38856262
+    "installerUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.4/MindList-windows-1.5.4-1087-x64-setup.exe",
+    "sha256": "b5af2c44d7acfeeb84ed03eccc92e24320f7b9ffabbcf2068a6938d4c28501a2",
+    "sizeBytes": 38952854
   },
   "linux": {
-    "appImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.2/MindList-linux-1.5.2-1085-x86_64.AppImage",
-    "sha256": "99191fa202c6740a708a1f33bad60d2c417979e2ec320bbcf30cda4cc92af508",
-    "sizeBytes": 76499448,
-    "legacyAppImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.2/MindList-linux-legacy-1.5.2-1085-x86_64.AppImage",
-    "legacySha256": "fa49d8349cf6278fb29c05d614577c236664bd130f99f693c23fd6b2eff12d36",
-    "legacySizeBytes": 76564984
+    "appImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.4/MindList-linux-1.5.4-1087-x86_64.AppImage",
+    "sha256": "3ad32c45cf8aa64aed276172ebaf003507fbb667639d30ac350a1ae63f626f84",
+    "sizeBytes": 76642808,
+    "legacyAppImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.4/MindList-linux-legacy-1.5.4-1087-x86_64.AppImage",
+    "legacySha256": "7b7153eda8a1eba515c1e6cb4461a07dc9ba19d7b27bbfe01dc4b18d94c25c77",
+    "legacySizeBytes": 76704248
   }
 }
