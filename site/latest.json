@@ -1,42 +1,42 @@
 {
   "schemaVersion": 1,
-  "version": "1.5.14",
-  "buildNumber": 1097,
-  "publishedAt": "2026-10-13T07:51:57.2900158Z",
-  "releaseNotes": "MindList 1.5.14 已发布，包含 Windows、Linux 和 Android 更新。",
+  "version": "1.5.16",
+  "buildNumber": 1102,
+  "publishedAt": "2026-10-13T10:21:48.9216372Z",
+  "releaseNotes": "MindList 1.5.16 已发布，包含 Windows、Linux 和 Android 更新。",
   "android": {
-    "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.14/MindList-android-arm64-v8a-1.5.14-1097.apk",
-    "sha256": "eedcd4ebd032ee0308c5571519ee4b6067a30be32b97086611f6ffc9c3819042",
-    "sizeBytes": 93246182,
+    "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.16/MindList-android-arm64-v8a-1.5.16-1102.apk",
+    "sha256": "45e8453538e6685a965dbf7314f9e48faee701d84bb6a98e91cac108f4cd22b9",
+    "sizeBytes": 93246218,
     "abis": {
       "armeabi-v7a": {
-        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.14/MindList-android-armeabi-v7a-1.5.14-1097.apk",
-        "sha256": "501cf8cd6c47083b8b8dc368fc9d664994505614053807d991dcd8a616e05ecb",
-        "sizeBytes": 84085300
+        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.16/MindList-android-armeabi-v7a-1.5.16-1102.apk",
+        "sha256": "268354a0e87ec6d68443a61000deae3b88b3b7349b9c0b12799f245a9c755d0a",
+        "sizeBytes": 84085340
       },
       "arm64-v8a": {
-        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.14/MindList-android-arm64-v8a-1.5.14-1097.apk",
-        "sha256": "eedcd4ebd032ee0308c5571519ee4b6067a30be32b97086611f6ffc9c3819042",
-        "sizeBytes": 93246182
+        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.16/MindList-android-arm64-v8a-1.5.16-1102.apk",
+        "sha256": "45e8453538e6685a965dbf7314f9e48faee701d84bb6a98e91cac108f4cd22b9",
+        "sizeBytes": 93246218
       },
       "x86_64": {
-        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.14/MindList-android-x86_64-1.5.14-1097.apk",
-        "sha256": "62fe0a9a3c9ddea35a47ee2582f41d5a6e4c053880feb8d05488d98eb2850c3e",
-        "sizeBytes": 98793895
+        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.16/MindList-android-x86_64-1.5.16-1102.apk",
+        "sha256": "cd4a705139f446446c7cc6404aa6ebe24b349a22d8e56a6328ce9c70056a02a9",
+        "sizeBytes": 98793935
       }
     }
   },
   "windows": {
-    "installerUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.14/MindList-windows-1.5.14-1097-x64-setup.exe",
-    "sha256": "2ead35fd1df4678c571d95b547aa2787abaaf6d544da8e011b9866545934079a",
-    "sizeBytes": 39082751
+    "installerUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.16/MindList-windows-1.5.16-1102-x64-setup.exe",
+    "sha256": "94f18c64e9c0f8abafa395e0513386200dd841e866d1b521f98d6009c4d5524a",
+    "sizeBytes": 39090943
   },
   "linux": {
-    "appImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.14/MindList-linux-1.5.14-1097-x86_64.AppImage",
-    "sha256": "d61466aa71049be68b194f852a1088bcf9ab93792c34e6d7156d56fbd1bed0b4",
+    "appImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.16/MindList-linux-1.5.16-1102-x86_64.AppImage",
+    "sha256": "b7aeaf45200268c4f4a442897aec533a08b395c6f15b175db61eea54877e74a7",
     "sizeBytes": 76810744,
-    "legacyAppImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.14/MindList-linux-legacy-1.5.14-1097-x86_64.AppImage",
-    "legacySha256": "64c21136c05b4c7280b85f7898d7ef9f3ffed15d00fb075a0d8ee3d6b1a24cee",
+    "legacyAppImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.5.16/MindList-linux-legacy-1.5.16-1102-x86_64.AppImage",
+    "legacySha256": "c97f6764a5aec676f86c639d5adf8038042ebf9ecad64ac8ceabc3c2eab84a3c",
     "legacySizeBytes": 76876280
   }
 }
