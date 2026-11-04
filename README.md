@@ -1,50 +1,69 @@
 # MindList
 
-MindList 是一款给个人使用的待办、项目看板和笔记应用。你可以在 Windows、macOS、Linux、Android 和 iPhone 上记录任务、推进项目、写笔记，也可以把同类资料收进合集。
+**English** | [简体中文](README.zh-CN.md)
 
-它默认把数据放在你自己的设备上，断网也能完整使用。本地功能和使用自己的云存储时，不需要注册账号。需要使用 MindList 提供的官方云空间时，注册账号并订阅即可。
+MindList brings tasks, projects, notes, collections, and your calendar into one personal workspace. Your work stays on your device, and the app works offline. You do not need an account for local use or to sync with your own cloud storage. An account and subscription are needed only for MindList's official cloud storage.
 
-## 可以做什么
+## What you can do
 
-- **随手记下任务。** 收集箱用来快速记录还没归类的事情。今日页集中看待今天和已经逾期的任务，日历按月查看安排，也可以复制本周完成情况。
-- **用看板推进项目。** 每个项目有自己的看板。新项目会准备“待开始、进行中、已完成”三列，也可以增删和调整列，并把任务拖到合适的位置。
-- **统一查找和整理。** 全部任务可以搜索，并按项目、标签、优先级和日期筛选。任务和笔记使用各自的标签。不再显示的项目和任务可以归档，之后恢复或彻底删除。
-- **写笔记和整理资料。** 笔记可以按文件夹归类，支持标题、列表、表格、图片和附件，也能导出为 PDF、Word、Markdown 或网页文件。合集适合把同一类内容逐条记下，例如资料清单或待比较的方案。
-- **提醒和语音。** 设置了截止时间的任务，会在截止前大约 1 小时提醒。手机上即使应用没有打开也能提醒；Windows 和 Linux 需要 MindList 正在运行。语音输入在你的设备上识别，说出的内容直接进入正在编辑的文字。
-- **按自己的习惯使用。** 界面支持简体中文、繁体中文、英语、日语、韩语、德语、法语、西班牙语和葡萄牙语，也可以在浅色、深色和暖陶、蓝图、澄蓝、墨白几种外观之间切换。
+### Inbox and tasks
 
-## 数据放在哪里
+Capture tasks as they come up, set priorities and due dates, and see today's and overdue work together. Search all tasks or filter them by project, tag, priority, and date.
 
-日常使用的任务、笔记、附件和合集都保存在当前设备上。不开启同步时，这些内容不会离开这台设备。
+<img src="screenshots/inbox.png" alt="MindList task inbox" width="760">
 
-多台设备同步时，选择下面其中一种方式：
+### Projects
 
-- **官方云空间。** 用邮箱注册 MindList 账号后使用。月付有两档：1 GB 每月 5 美元，10 GB 每月 10 美元，具体金额以结账页面为准。电脑在应用里的付款页面订阅，Android 和 iPhone 使用各自的应用商店，之后可以管理或取消订阅。官方云空间可以连接多台设备，不受两台设备的限制。打开自动同步后，其他设备的更新会尽快同步过来；应用在后台或网络不稳定时，打开应用或到达设定周期后也会继续同步。
-- **自己的云存储。** 不需要账号。可以连接 AWS S3、Cloudflare R2、阿里云 OSS 或腾讯云 COS。这种方式免费，每个同步空间最多两台设备。文件由应用直接写入你自己的存储空间，不经过 MindList。
+Break a larger goal into steps and track them on a board. New projects start with To Do, In Progress, and Done columns; you can change the columns and move tasks between them. Archive projects and tasks when you no longer need them in your active workspace.
 
-Windows、macOS 和 Linux 可以把本机保存位置改到自己选择的文件夹。手机使用系统为应用准备的位置。
+<img src="screenshots/board.png" alt="MindList project board" width="760">
 
-## 数据安全
+### Notes
 
-- **备份和同步文件会先加密。** 设置加密密码后，本地备份、导出的备份，以及上传到官方云空间或自己的云存储的文件，都会用这个密码加密。没有密码就打不开。密码保存在当前设备的系统安全区域。MindList 看不到这个密码，也不能帮你重置。
-- **账号密码和加密密码不同。** 账号密码只用于登录官方云空间，忘记后可以通过邮箱重置。加密密码丢失后，对应的备份和云端副本无法恢复。修改加密密码后，新的备份和之后的同步使用新密码；以前的备份仍要用旧密码打开，请把旧密码一并留好。
-- **导入前会先留退路。** 导入或恢复备份时，需要输入创建备份时的密码。确认前会说明将影响哪些内容，并先保留当前数据，确认后才会覆盖。
-- **官方云空间看不到正文。** MindList 只托管已经加密的文件，可以知道邮箱、订阅档位、已用空间和已连接的设备，但不能阅读任务、笔记和附件。空间用满后仍可查看已有内容，腾出空间或升级后才能继续上传。删除账号后，各设备会退出登录；本机数据和已经同步的加密文件不会因此删除。如有订阅，请先在付款渠道取消。
-- **自己的云存储同样看不到正文。** 云存储服务商只能看到已经加密的文件。连接用的密钥只保存在系统安全区域，不会写进备份。清除同步设置只会去掉这台设备上的连接，不会删除云端文件。
-- **同步连接默认加密。** 只有你明确确认后，自己的云存储才可以使用仅限局域网的未加密地址。两台设备同时修改同一内容时，先成功同步到云端的版本会保留；另一台还没同步的修改会被覆盖，同步日志里可以查看。
-- **正在使用的数据没有整库加密。** 为了离线打开和日常使用，设备上正在使用的数据文件没有再用加密密码封存。请为电脑和手机设置系统锁屏，不要把数据文件夹交给别人。
-- **“私密”用来防止旁人瞥见。** 项目、笔记和文件夹可以标为私密。未解锁时正文会被挡住，但项目名称和笔记标题仍然可见。每台设备单独设置私密密码，保持解锁的时间可以自己选择，关闭应用后都会重新锁上。它不能防止别人复制设备上的数据文件，忘记后也没有找回途径。
-- **语音不会被保存或上传。** 录音只在识别过程中临时使用，不会保存成音频文件。
-- **使用统计默认关闭。** 只有你同意后，才会发送匿名的使用情况和崩溃信息，用于改进稳定性。其中不包含任务、笔记、项目内容、搜索词、文件名或同步地址，也可以随时关闭。
+Keep briefs, decisions, and the details behind your tasks. Organize notes in folders, use headings, lists, tables, images, and attachments, and export them as PDF, Word, Markdown, or HTML.
 
-## 下载
+<img src="screenshots/notes.png" alt="MindList note editor" width="760">
 
-MindList 可用于 Windows、macOS、Linux、Android 和 iPhone。当前发布页提供 Windows、Linux 和 Android 安装包：
+### Collections
 
-<https://github.com/huagelong/mindlist-releases/releases>
+Group the details you reach for often, such as meeting agendas, client handoffs, reference material, and checklists.
 
-请只从上面的页面下载。安装之后，可以在应用里检查更新；更新前会先确认安装包完整。
+<img src="screenshots/collections.png" alt="MindList collections" width="760">
 
-Windows 安装程序按当前用户安装，通常不需要管理员权限。如果系统提示“未知发布者”，是因为安装包尚未购买商业代码签名证书。
+### Calendar
 
-Android 需要下载安装包后，按系统提示完成安装。
+Put deadlines and next steps on the calendar and see your plans by month. You can also copy a summary of what you completed this week.
+
+<img src="screenshots/calendar.png" alt="MindList calendar" width="760">
+
+Tasks with due times can remind you about an hour beforehand. On mobile, reminders can arrive while the app is closed; on Windows and Linux, MindList must be running. Voice input is recognized on your device and inserts text directly into what you are editing.
+
+The interface supports Simplified Chinese, Traditional Chinese, English, Japanese, Korean, German, French, Spanish, and Portuguese. Light, dark, and several additional appearance themes are available.
+
+## Where your data lives
+
+Tasks, notes, attachments, and collections are stored on your current device. Without sync enabled, they stay there. For sync across devices, choose one of these options:
+
+- **Official cloud storage.** Sign up with an email address and subscribe to 1 GB for $5/month or 10 GB for $10/month; the checkout page shows the final price. Subscribe through the in-app payment page on desktop or the respective app store on mobile when available. Official storage works across your devices without the two-device limit. With automatic sync enabled, updates from other devices arrive as soon as possible; the app also retries when opened or at the configured interval after background or network interruptions.
+- **Your own cloud storage.** No account is needed. Connect AWS S3, Cloudflare R2, Alibaba Cloud OSS, or Tencent Cloud COS. MindList does not charge for this option, and each sync space supports up to two devices. The app writes files directly to your storage provider.
+
+On Windows, macOS, and Linux, you can choose the local data folder. On mobile, the operating system provides the app's storage location.
+
+## Data and security
+
+- **Backups and synced files are encrypted.** Set an encryption password to protect local backups, exported backups, and files uploaded to official or personal cloud storage. The password is kept in the current device's secure storage. MindList cannot see or reset it.
+- **Your account password is separate.** An account password can be reset by email. If you lose the encryption password, you cannot restore the backups and cloud copies it protected. After changing it, new backups and sync use the new password; older backups still need the old one.
+- **Imports preserve a recovery path.** Restoring a backup requires the password used to create it. MindList explains what will be affected and keeps the current data before replacing it.
+- **Official storage holds encrypted content.** MindList can see your email, plan, storage use, and connected devices, but cannot read your tasks, notes, or attachments. If the space fills up, you can still view existing content; uploads resume after you free space or upgrade. Deleting an account signs out its devices but does not delete local data or already synced encrypted files. Cancel any subscription with its payment provider first.
+- **Personal storage also receives encrypted content.** Your provider sees encrypted files. Storage credentials stay in the device's secure storage and are not included in backups. Clearing sync settings disconnects that device without deleting cloud files.
+- **Sync connections use encryption by default.** An unencrypted address is allowed only on a local network after explicit confirmation. If two devices edit the same item at once, the version that syncs first is kept; the other unsynced change can be overwritten. The sync log records the conflict.
+- **Working data on the device is not fully encrypted.** Set an operating-system screen lock and protect the local data folder. The separate "private" setting hides marked projects, notes, and folders from casual viewing, but project names and note titles remain visible. Its password is set per device, cannot be recovered, and does not protect copied data files. Closing the app locks private content again.
+- **Voice recordings are temporary.** Audio used for recognition is not saved or uploaded. Anonymous usage and crash reporting is off by default and is sent only with your consent. You can turn it off again at any time; it excludes your content, search terms, file names, and sync addresses.
+
+## Download
+
+Installers for Windows, Linux, and Android are available on the [GitHub Releases page](https://github.com/huagelong/mindlist-releases/releases). Google Play and the App Store are coming soon.
+
+Download only from that page. MindList can check for updates in the app and verifies an installer before updating.
+
+The Windows installer installs for the current user and normally needs no administrator permission. An "Unknown publisher" warning may appear because the installer does not yet have a commercial code-signing certificate. On Android, download the APK and follow the system's installation prompts.
