@@ -77,3 +77,9 @@ Windows、macOS 和 Linux 可以把本机保存位置改到自己选择的文件
 Windows 安装程序按当前用户安装，通常不需要管理员权限。如果系统提示“未知发布者”，是因为安装包尚未购买商业代码签名证书。
 
 Android 需要下载安装包后，按系统提示完成安装。
+
+## 发布维护
+
+维护者先将 `vX.Y.Z` 标签推送到私有的 `huagelong/mindlist` 仓库，再在本仓库 Actions 页手动运行 **Build and publish MindList**，输入该标签。工作流会验证标签属于私有仓库 `main` 分支，构建各平台安装包，全部上传并核对后发布 Release 和更新元数据。
+
+本仓库需要配置只读私有源码令牌 `MINDLIST_SOURCE_TOKEN`，Android 签名 Secrets `ANDROID_KEYSTORE_BASE64`、`ANDROID_KEYSTORE_PASSWORD`、`ANDROID_KEY_PASSWORD`，以及变量 `ANDROID_KEY_ALIAS`。Sentry 配置可选。Release 和元数据由本仓库的 `GITHUB_TOKEN` 写入。工作流不保留构建缓存和中间构建产物；Pages 工作流会使用站点 artifact。托管 runner 结束后清理临时构建文件，正式发布的安装包继续提供下载。
