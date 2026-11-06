@@ -1,71 +1,71 @@
 {
   "schemaVersion": 1,
-  "version": "1.6.18",
-  "buildNumber": 2003,
-  "publishedAt": "2026-11-05T10:33:29.3794522Z",
-  "releaseNotes": "MindList 1.6.18 is now available for Windows, Linux, Android, and macOS.",
+  "version": "1.6.19",
+  "buildNumber": 2004,
+  "publishedAt": "2026-11-06T09:13:04.8245785Z",
+  "releaseNotes": "MindList 1.6.19 is now available for Windows, Linux, Android, and macOS.",
   "android": {
-    "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.18/MindList-android-arm64-v8a-1.6.18-2003.apk",
-    "sha256": "a775bb75ea721d2244c2162bde6574163b100737d0194d565c5cf6fda1c364f2",
-    "sizeBytes": 83200204,
+    "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.19/MindList-android-arm64-v8a-1.6.19-2004.apk",
+    "sha256": "fd8a5f7631f06fbf80bae557ae647cff51d4d2ef41a2f1408ea471eb081f126b",
+    "sizeBytes": 83200164,
     "abis": {
       "armeabi-v7a": {
-        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.18/MindList-android-armeabi-v7a-1.6.18-2003.apk",
-        "sha256": "d68dbdda6e8863b9165d3fb01da8f485955ca9c120327e814d898a9e504a8df6",
-        "sizeBytes": 73957406
+        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.19/MindList-android-armeabi-v7a-1.6.19-2004.apk",
+        "sha256": "d7db0866e30d5882751e0722fe2746b0a7e0f3e3e0257c98bfd67c38ac90f2c2",
+        "sizeBytes": 73957366
       },
       "arm64-v8a": {
-        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.18/MindList-android-arm64-v8a-1.6.18-2003.apk",
-        "sha256": "a775bb75ea721d2244c2162bde6574163b100737d0194d565c5cf6fda1c364f2",
-        "sizeBytes": 83200204
+        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.19/MindList-android-arm64-v8a-1.6.19-2004.apk",
+        "sha256": "fd8a5f7631f06fbf80bae557ae647cff51d4d2ef41a2f1408ea471eb081f126b",
+        "sizeBytes": 83200164
       },
       "x86_64": {
-        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.18/MindList-android-x86_64-1.6.18-2003.apk",
-        "sha256": "56a2d04ad92789e93badefae807543c51c28d770718affa8df5bd1f9a60375fa",
-        "sizeBytes": 88747917
+        "apkUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.19/MindList-android-x86_64-1.6.19-2004.apk",
+        "sha256": "00254ea39ad481166760f65a44905b4c5fa6549c795f5f09bbc08ea7731437b8",
+        "sizeBytes": 88747877
       }
     }
   },
   "windows": {
-    "installerUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.18/MindList-windows-1.6.18-2003-x64-setup.exe",
-    "sha256": "4a0768d717a15900f891fbc1822e892492d2a9abe735a0525793146b45983b0c",
-    "sizeBytes": 36131126,
+    "installerUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.19/MindList-windows-1.6.19-2004-x64-setup.exe",
+    "sha256": "e628f783fcc13fca8bd231cb221c2fe79e559784197d6e25ee70041f28b8a6c7",
+    "sizeBytes": 36134104,
     "architectures": {
       "x64": {
-        "installerUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.18/MindList-windows-1.6.18-2003-x64-setup.exe",
-        "installerSha256": "4a0768d717a15900f891fbc1822e892492d2a9abe735a0525793146b45983b0c",
-        "installerSizeBytes": 36131126,
-        "portableZipUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.18/MindList-windows-1.6.18-2003-x64-portable.zip",
-        "portableZipSha256": "4baf96b78d50f0f8139c8ba40186abae74cf188610467545b75e246b681702f3",
-        "portableZipSizeBytes": 50470978
+        "installerUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.19/MindList-windows-1.6.19-2004-x64-setup.exe",
+        "installerSha256": "e628f783fcc13fca8bd231cb221c2fe79e559784197d6e25ee70041f28b8a6c7",
+        "installerSizeBytes": 36134104,
+        "portableZipUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.19/MindList-windows-1.6.19-2004-x64-portable.zip",
+        "portableZipSha256": "cd36ba8fed5b74f9811825c71907619a083a097ea7246ebf383ffbeb1ec7d13f",
+        "portableZipSizeBytes": 50469444
       },
       "arm64": {
-        "installerUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.18/MindList-windows-1.6.18-2003-arm64-setup.exe",
-        "installerSha256": "7d95f639ab89e5c62de80a7f95616a49e53843e8c5bf9bb621b4eb7f0b350981",
-        "installerSizeBytes": 34869365,
-        "portableZipUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.18/MindList-windows-1.6.18-2003-arm64-portable.zip",
-        "portableZipSha256": "e7b20297b12672e40e241ea0089eb7d39c149b5b917074d990e2101e1bb7dc12",
-        "portableZipSizeBytes": 48575052
+        "installerUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.19/MindList-windows-1.6.19-2004-arm64-setup.exe",
+        "installerSha256": "d77ea7f5e712fb63b7bf356b3c4f3c4a0091120e079335f20c33daedb8105270",
+        "installerSizeBytes": 34866916,
+        "portableZipUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.19/MindList-windows-1.6.19-2004-arm64-portable.zip",
+        "portableZipSha256": "fa10a3c32b4f0aa36a77e7816c41eee77b4674bdbc50556aa40f4a260d669b0e",
+        "portableZipSizeBytes": 48571843
       }
     }
   },
   "linux": {
-    "appImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.18/MindList-linux-1.6.18-2003-x86_64.AppImage",
-    "sha256": "ea1684881ff8837f6b317b3795a2c3152c3ead7193cceacaa60a2e990b18a2f8",
-    "sizeBytes": 68078072,
-    "legacyAppImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.18/MindList-linux-legacy-1.6.18-2003-x86_64.AppImage",
-    "legacySha256": "73e68e96c2e9fc0beaf48437dad55be9c24bba5cfcb9b42646dff7a89b3c3c44",
-    "legacySizeBytes": 68143608,
+    "appImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.19/MindList-linux-1.6.19-2004-x86_64.AppImage",
+    "sha256": "392d357f8923e99f17ea8d938082fb88bef4be028a19cfe55aefe406cc45b4ed",
+    "sizeBytes": 68086264,
+    "legacyAppImageUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.19/MindList-linux-legacy-1.6.19-2004-x86_64.AppImage",
+    "legacySha256": "554120f136490e10e12e30e4e4c1ecb394dff5f210a5a6a873f9b948bf676a07",
+    "legacySizeBytes": 68151800,
     "debs": {
       "amd64": {
-        "debUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.18/MindList-linux-1.6.18-2003-amd64.deb",
-        "sha256": "b479268f31b59d6b3660ef8a1f8c2215955b764daf5b2a79114b784360b6f49b",
-        "sizeBytes": 42664620
+        "debUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.19/MindList-linux-1.6.19-2004-amd64.deb",
+        "sha256": "b9b6b8f5c50f41874804b4efac6dcc70dde43e7520aa73e1ee0860cfd6f52efc",
+        "sizeBytes": 42665186
       },
       "arm64": {
-        "debUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.18/MindList-linux-1.6.18-2003-arm64.deb",
-        "sha256": "53caf8d493c80164f75d09601ce5ac5f1b0a7511572f56a29b213dae173d00ce",
-        "sizeBytes": 43957296
+        "debUrl": "https://github.com/huagelong/mindlist-releases/releases/download/v1.6.19/MindList-linux-1.6.19-2004-arm64.deb",
+        "sha256": "ab19a47863d0e8771bac8cb1733e9abef498e95b55133a6b41563378951d3f0b",
+        "sizeBytes": 43961336
       }
     }
   }
