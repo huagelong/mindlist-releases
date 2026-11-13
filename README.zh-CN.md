@@ -82,6 +82,6 @@ Android 需要下载安装包后，按系统提示完成安装。
 
 维护者先将 `vX.Y.Z` 标签推送到私有的 `huagelong/mindlist` 仓库，再在本仓库 Actions 页手动运行 **Build and publish MindList**，输入该标签。工作流会验证标签属于私有仓库 `main` 分支，构建各平台安装包，全部上传并核对后发布 Release 和更新元数据。
 
-Google Play 内部测试使用 **Build Google Play internal test bundle**。输入私有仓库 `main` 分支上的版本标签，工作流会复用现有 Android 签名密钥并生成连接 staging 服务的 AAB。首次上传以解锁订阅配置时，两项商品 ID 留空；创建商品后，再同时填写两项 ID 构建购买联调包。产物在该次运行的 artifact 中保留 7 天，只上传到 Play Console 的封闭式内部测试轨道；此工作流不会发布 GitHub Release 或提交 Play 正式版。
+Google Play 内部测试使用 **Build Google Play internal test bundle**。输入私有仓库 `main` 分支上的版本标签，工作流会复用现有 Android 签名密钥并生成连接 staging 服务的 AAB。首次上传以解锁订阅配置时，两项商品 ID 留空；创建商品后，再同时填写两项 ID 构建购买联调包。产物在该次运行的 artifact 中保留 7 天，只上传到 Play Console 的内部测试轨道；此工作流不会发布 GitHub Release 或提交 Play 正式版。
 
 本仓库需要配置只读私有源码令牌 `MINDLIST_SOURCE_TOKEN`，Android 签名 Secrets `ANDROID_KEYSTORE_BASE64`、`ANDROID_KEYSTORE_PASSWORD`、`ANDROID_KEY_PASSWORD`，以及变量 `ANDROID_KEY_ALIAS`。Sentry 配置可选。Release 和元数据由本仓库的 `GITHUB_TOKEN` 写入。工作流不保留构建缓存和中间构建产物；Pages 工作流会使用站点 artifact。托管 runner 结束后清理临时构建文件，正式发布的安装包继续提供下载。
