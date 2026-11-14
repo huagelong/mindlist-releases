@@ -1,27 +1,15 @@
 name: Build Google Play internal test bundle
 
 on:
+  push:
+    branches: [dev]
   workflow_dispatch:
-    inputs:
-      tag:
-        description: Version tag on the private MindList main branch
-        required: true
-        default: v1.6.22
-        type: string
-      play_low_product_id:
-        description: Base monthly subscription ID (leave both IDs empty before products exist)
-        required: false
-        type: string
-      play_high_product_id:
-        description: Premium monthly subscription ID (leave both IDs empty before products exist)
-        required: false
-        type: string
 
 permissions:
   contents: read
 
 concurrency:
-  group: mindlist-play-test-${{ inputs.tag }}
+  group: mindlist-play-test-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -29,9 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     env:
-      RELEASE_TAG: ${{ inputs.tag }}
-      PLAY_LOW_PRODUCT_ID: ${{ inputs.play_low_product_id }}
-      PLAY_HIGH_PRODUCT_ID: ${{ inputs.play_high_product_id }}
+      PLAY_LOW_PRODUCT_ID: mindlist_low_monthly
+      PLAY_HIGH_PRODUCT_ID: mindlist_high_monthly
     steps:
       - name: Free disk space
         shell: bash
@@ -42,7 +29,7 @@ jobs:
       - uses: actions/checkout@v5
         with:
           repository: huagelong/mindlist
-          ref: refs/tags/${{ inputs.tag }}
+          ref: refs/heads/dev
           token: ${{ secrets.MINDLIST_SOURCE_TOKEN }}
           persist-credentials: false
           fetch-depth: 0
@@ -54,42 +41,20 @@ jobs:
         with:
           flutter-version: '3.44.3'
           channel: stable
-      - name: Validate source and product IDs
+      - name: Validate staging source
         id: version
         shell: bash
         run: |
           set -euo pipefail
-          if [[ ! "$RELEASE_TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
-            echo 'Use a vX.Y.Z tag from the private source repository.' >&2
+          if ! git show-ref --verify --quiet refs/remotes/origin/dev ||
+             [[ "$(git rev-parse HEAD)" != "$(git rev-parse refs/remotes/origin/dev)" ]]; then
+            echo 'The staging bundle must use the current private dev branch.' >&2
             exit 1
           fi
-          if ! git show-ref --verify --quiet "refs/tags/$RELEASE_TAG" ||
-             [[ "$(git rev-parse HEAD)" != "$(git rev-parse "refs/tags/$RELEASE_TAG^{commit}")" ]] ||
-             ! git merge-base --is-ancestor HEAD refs/remotes/origin/main; then
-            echo 'The tag must point to a commit on the private main branch.' >&2
-            exit 1
-          fi
-          version="${RELEASE_TAG#v}"
-          source_version="$(sed -n 's/^version:[[:space:]]*//p' pubspec.yaml)"
-          if [[ "${source_version%%+*}" != "$version" ]]; then
-            echo 'The tag and pubspec.yaml versions differ.' >&2
-            exit 1
-          fi
-          if [[ -n "$PLAY_LOW_PRODUCT_ID" || -n "$PLAY_HIGH_PRODUCT_ID" ]]; then
-            if [[ -z "$PLAY_LOW_PRODUCT_ID" || -z "$PLAY_HIGH_PRODUCT_ID" ||
-                  "$PLAY_LOW_PRODUCT_ID" == "$PLAY_HIGH_PRODUCT_ID" ]]; then
-              echo 'Provide two distinct Google Play product IDs.' >&2
-              exit 1
-            fi
-            for id in "$PLAY_LOW_PRODUCT_ID" "$PLAY_HIGH_PRODUCT_ID"; do
-              if [[ ! "$id" =~ ^[a-z][a-z0-9_.]*$ ]]; then
-                echo 'Product IDs must contain lowercase letters, digits, underscores or dots.' >&2
-                exit 1
-              fi
-            done
-          fi
-          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "source_commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo 'version=1.6.23' >> "$GITHUB_OUTPUT"
           echo "build_number=$((5000 + GITHUB_RUN_NUMBER))" >> "$GITHUB_OUTPUT"
+          echo "Private dev source: $(git rev-parse HEAD)" >> "$GITHUB_STEP_SUMMARY"
       - name: Validate signing configuration
         shell: bash
         env:
