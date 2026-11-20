@@ -2,13 +2,13 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-MindList brings tasks, projects, notes, collections, and your calendar into one personal workspace. Your work stays on your device, and the app works offline. You do not need an account for local use or to sync with your own cloud storage. An account and subscription are needed only for MindList's official cloud storage.
+Plan with tasks and a calendar, keep notes and collections close by. Your work stays on your device, and MindList works offline. Local use and free sync with your own storage do not require an account. A MindList account is needed for the one-time purchase that removes the custom sync device limit, or for a monthly official storage subscription.
 
 ## What you can do
 
 ### Inbox and tasks
 
-Capture tasks as they come up, set priorities and due dates, and see today's and overdue work together. Search all tasks or filter them by project, tag, priority, and date.
+Capture tasks as they come up, set priorities and due dates, and see today's and overdue work together. Search your tasks or filter them by project, tag, priority, and date.
 
 <img src="screenshots/inbox.png" alt="MindList task inbox" width="760">
 
@@ -26,7 +26,7 @@ Keep briefs, decisions, and the details behind your tasks. Organize notes in fol
 
 ### Collections
 
-Group the details you reach for often, such as meeting agendas, client handoffs, reference material, and checklists.
+Keep meeting agendas, handoff notes, reference material, and checklists together in collections.
 
 <img src="screenshots/collections.png" alt="MindList collections" width="760">
 
@@ -40,12 +40,18 @@ Tasks with due times can remind you about an hour beforehand. On mobile, reminde
 
 The interface supports Simplified Chinese, Traditional Chinese, English, Japanese, Korean, German, French, Spanish, and Portuguese. Light, dark, and several additional appearance themes are available.
 
+### Focus timer
+
+Start a 25-minute pomodoro or count up from zero. Link a task if you want to track what you worked on, then review your focus time and completed pomodoros. You can change the focus and break lengths, and save special dates with reminders.
+
+<img src="screenshots/focus-en.png" alt="MindList focus timer" width="760">
+
 ## Where your data lives
 
 Tasks, notes, attachments, and collections are stored on your current device. Without sync enabled, they stay there. For sync across devices, choose one of these options:
 
-- **Official cloud storage.** Sign up with an email address and subscribe to 1 GB for $5/month or 10 GB for $10/month; the checkout page shows the final price. Subscribe through the in-app payment page on desktop or the respective app store on mobile when available. Official storage works across your devices without the two-device limit. With automatic sync enabled, updates from other devices arrive as soon as possible; the app also retries when opened or at the configured interval after background or network interruptions.
-- **Your own cloud storage.** No account is needed. Connect AWS S3, Cloudflare R2, Alibaba Cloud OSS, or Tencent Cloud COS. MindList does not charge for this option, and each sync space supports up to two devices. The app writes files directly to your storage provider.
+- **Official cloud storage.** Sign up with an email address and choose 1 GB for $5/month or 10 GB for $10/month; the checkout page shows the final price. Subscribe through the in-app payment page on desktop or the respective app store on mobile when available. An active subscription removes the device limit for both official and custom sync. If several official storage locations are available, the app measures their speed and recommends one. You can choose another location; when changing locations later, the app copies your encrypted files before switching. If the move fails, the original location remains in use. Automatic sync checks for changes when the app opens and at the interval you set.
+- **Your own cloud storage.** Connect AWS S3, Cloudflare R2, Alibaba Cloud OSS, Tencent Cloud COS, or another S3-compatible service. Enter the connection details and test them before saving. MindList does not charge for custom sync, though your storage provider may. Without a one-time purchase or active official subscription, each sync space supports two devices. A $10 one-time purchase linked to your MindList account removes that limit; it does not include official storage. The app writes files directly to your provider.
 
 On Windows, macOS, and Linux, you can choose the local data folder. On mobile, the operating system provides the app's storage location.
 
@@ -53,9 +59,9 @@ On Windows, macOS, and Linux, you can choose the local data folder. On mobile, t
 
 - **Backups and synced files are encrypted.** Set an encryption password to protect local backups, exported backups, and files uploaded to official or personal cloud storage. The password is kept in the current device's secure storage. MindList cannot see or reset it.
 - **Your account password is separate.** An account password can be reset by email. If you lose the encryption password, you cannot restore the backups and cloud copies it protected. After changing it, new backups and sync use the new password; older backups still need the old one.
-- **Imports preserve a recovery path.** Restoring a backup requires the password used to create it. MindList explains what will be affected and keeps the current data before replacing it.
+- **Restoring a backup requires its password.** MindList explains what will be affected and backs up your current data before replacing it.
 - **Official storage holds encrypted content.** MindList can see your email, plan, storage use, and connected devices, but cannot read your tasks, notes, or attachments. If the space fills up, you can still view existing content; uploads resume after you free space or upgrade. Deleting an account removes its registered encrypted files from official storage but does not delete local data or files in storage you own. Manage Google Play and App Store subscriptions through those stores.
-- **Personal storage also receives encrypted content.** Your provider sees encrypted files. Storage credentials stay in the device's secure storage and are not included in backups. Clearing sync settings disconnects that device without deleting cloud files.
+- **Your storage provider receives encrypted files.** Storage credentials stay in the device's secure storage and are not included in backups. Clearing sync settings disconnects that device without deleting cloud files.
 - **Sync connections use encryption by default.** An unencrypted address is allowed only on a local network after explicit confirmation. If two devices edit the same item at once, the version that syncs first is kept; the other unsynced change can be overwritten. The sync log records the conflict.
 - **Working data on the device is not fully encrypted.** Set an operating-system screen lock and protect the local data folder. The separate "private" setting hides marked projects, notes, and folders from casual viewing, but project names and note titles remain visible. Its password is set per device, cannot be recovered, and does not protect copied data files. Closing the app locks private content again.
 - **Voice recordings are temporary.** Audio used for recognition is not saved or uploaded. Runtime logs stay on your device and are not sent automatically.
