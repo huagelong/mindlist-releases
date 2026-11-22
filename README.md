@@ -40,6 +40,8 @@ Tasks with due times can remind you about an hour beforehand. On mobile, reminde
 
 The interface supports Simplified Chinese, Traditional Chinese, English, Japanese, Korean, German, French, Spanish, and Portuguese. Light, dark, and several additional appearance themes are available.
 
+The [help center](https://mindlist.devinghub.com/help) has a guide and product screenshots for each interface language. Open Help in the app to see the guide in your selected language.
+
 ### Focus timer
 
 Start a 25-minute pomodoro or count up from zero. Link a task if you want to track what you worked on, then review your focus time and completed pomodoros. You can change the focus and break lengths, and save special dates with reminders.
@@ -51,7 +53,7 @@ Start a 25-minute pomodoro or count up from zero. Link a task if you want to tra
 Tasks, notes, attachments, and collections are stored on your current device. Without sync enabled, they stay there. For sync across devices, choose one of these options:
 
 - **Official cloud storage.** Sign up with an email address and choose 1 GB for $5/month or 10 GB for $10/month; the checkout page shows the final price. Subscribe through the in-app payment page on desktop or the respective app store on mobile when available. An active subscription removes the device limit for both official and custom sync. If several official storage locations are available, the app measures their speed and recommends one. You can choose another location; when changing locations later, the app copies your encrypted files before switching. If the move fails, the original location remains in use. Automatic sync checks for changes when the app opens and at the interval you set.
-- **Your own cloud storage.** Connect AWS S3, Cloudflare R2, Alibaba Cloud OSS, Tencent Cloud COS, or another S3-compatible service. Enter the connection details and test them before saving. MindList does not charge for custom sync, though your storage provider may. Without a one-time purchase or active official subscription, each sync space supports two devices. A $10 one-time purchase linked to your MindList account removes that limit; it does not include official storage. The app writes files directly to your provider.
+- **Your own cloud storage.** Connect AWS S3, Cloudflare R2, Alibaba Cloud OSS, Tencent Cloud COS, or another S3-compatible service. Enter the connection details and test them before saving. MindList does not charge for custom sync, though your storage provider may. Without a one-time purchase or active official subscription, each sync space supports two devices. A $10 one-time purchase linked to your MindList account removes that limit; it does not include official storage. On desktop, the account page opens the web plan page for purchase. After purchase, Manage plan opens the account dashboard without another sign-in. The app writes files directly to your provider.
 
 On Windows, macOS, and Linux, you can choose the local data folder. On mobile, the operating system provides the app's storage location.
 
