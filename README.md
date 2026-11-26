@@ -38,7 +38,7 @@ Put deadlines and next steps on the calendar and see your plans by month. You ca
 
 <img src="screenshots/calendar.png" alt="MindList calendar" width="760">
 
-Tasks with due times can remind you about an hour beforehand. On mobile, reminders can arrive while the app is closed; on Windows and Linux, MindList must be running. Voice input is recognized on your device and inserts text directly into what you are editing.
+Tasks with due times can remind you about an hour beforehand. On mobile, reminders can arrive while the app is closed; on Windows and Linux, MindList must be running. On Android, iOS, and macOS, Settings shows whether notifications and the microphone are turned on. Voice input is recognized on your device and inserts text directly into what you are editing.
 
 The interface supports Simplified Chinese, Traditional Chinese, English, Japanese, Korean, German, French, Spanish, and Portuguese. Light, dark, and several additional appearance themes are available.
 
