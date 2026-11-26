@@ -10,6 +10,8 @@ Plan with tasks and a calendar, keep notes and collections close by. Your work s
 
 Capture tasks as they come up, set priorities and due dates, and see today's and overdue work together. Repeat a task daily, weekly, monthly, or yearly; completing it creates the next future occurrence. Search your tasks or filter them by project, tag, priority, and date.
 
+On desktop, double tap Shift to search across tasks, projects, collections, and entries. Use the arrow keys to choose a result and Enter to open it. Page searches still filter the current list.
+
 <img src="screenshots/inbox.png" alt="MindList task inbox" width="760">
 
 ### Projects
