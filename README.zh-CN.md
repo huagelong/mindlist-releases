@@ -2,11 +2,13 @@
 
 [English](README.md) | **简体中文**
 
-用 MindList 管理任务、项目和笔记，也可以把常用资料收进合集，在日历上查看安排。当前发布页提供 Windows、Linux 和 Android 安装包。
+MindList 的大部分功能免费使用：任务、项目、笔记、合集、日历和番茄时钟，本机使用都不需要账号。当前发布页提供 Windows、macOS、Linux 和 Android 安装包。
 
 内容保存在你的设备上，断网也能使用。本机使用和免费连接自备存储都不需要账号；购买自定义同步的不限设备权益或订阅官方云空间时，需要注册 MindList 账号。
 
 ## 可以做什么
+
+下方截图使用当前 Windows 界面和中文演示内容。官网提供九种界面语言的对应截图，包含番茄时钟。
 
 ### 任务
 
@@ -16,31 +18,31 @@
 
 Windows 和 Linux 的新建任务“＋”使用实心主题色圆形按钮，位于窗口标题栏的综合搜索图标左边，收起侧栏后仍可使用；macOS 保留侧栏顶部的“＋”。也可用新建任务快捷键（默认 Ctrl+N）或空列表中的“新建任务”添加任务。桌面收集箱顶部保留搜索、筛选和批量操作，不再显示整条快速新建栏。Android 和 iOS 保留原有的新建入口。
 
-<img src="screenshots/inbox.png" alt="MindList 任务收集箱" width="760">
+<img src="screenshots/inbox-zh.png" alt="MindList 任务收集箱" width="760">
 
 ### 项目
 
 把大目标拆成步骤，用看板追踪进展。新项目有“待开始、进行中、已完成”三列，也可以增删和调整列、拖动任务。项目和任务可以归档，之后恢复或删除。
 
-<img src="screenshots/board.png" alt="MindList 项目看板" width="760">
+<img src="screenshots/board-zh.png" alt="MindList 项目看板" width="760">
 
 ### 笔记
 
 记录简报、决策和任务背后的细节。笔记可以按文件夹归类，支持标题、列表、表格、图片和附件，并可导出为 PDF、Word、Markdown 或网页文件。
 
-<img src="screenshots/notes.png" alt="MindList 笔记编辑器" width="760">
+<img src="screenshots/notes-zh.png" alt="MindList 笔记编辑器" width="760">
 
 ### 合集
 
 把会议提纲、交接信息、参考资料和清单放进合集，方便查找。
 
-<img src="screenshots/collections.png" alt="MindList 合集" width="760">
+<img src="screenshots/collections-zh.png" alt="MindList 合集" width="760">
 
 ### 日历
 
 把截止日期和下一步安排进日历，按月查看计划，也可以复制本周完成情况。
 
-<img src="screenshots/calendar.png" alt="MindList 日历" width="760">
+<img src="screenshots/calendar-zh.png" alt="MindList 日历" width="760">
 
 设置了截止时间的任务，会在截止前大约 1 小时提醒。手机上即使应用没有打开也能提醒；Windows 和 Linux 需要 MindList 正在运行。Android、iOS 和 macOS 可在设置中查看通知和麦克风是否已打开。语音输入在你的设备上识别，说出的内容直接进入正在编辑的文字。
 
@@ -62,6 +64,8 @@ Windows 和 Linux 的新建任务“＋”使用实心主题色圆形按钮，�
 
 - **官方云空间。** 用邮箱注册 MindList 账号后，可选择 1 GB 每月 5 美元或 10 GB 每月 10 美元，实际金额以结账页面为准。电脑可在应用内付款；移动应用上架商店后，可通过相应商店订阅和管理订阅。开通 Dodo 支付的环境支持在账号页切换 1 GB 与 10 GB 套餐；订阅状态阻止切换时，新版账号页会显示具体状态、原因和处理建议，点击“重新检查”可再次查询。已关闭自动续费但仍在有效期内的订阅可以换档，换档后保持不自动续费。订阅有效期间，官方与自定义同步都不限设备。打开自动同步后，应用会在启动和到达设定周期时检查其他设备的更新。
 - **自己的云存储。** 可以连接 AWS S3、Cloudflare R2、阿里云 OSS、腾讯云 COS 或其他 S3 兼容存储。填写连接信息并测试通过后保存。自定义同步无需向 MindList 付费，但存储服务商可能收费。没有买断权益或有效官方订阅时，每个同步空间最多连接两台设备；绑定 MindList 账号后一次性支付 10 美元，可解除自定义同步设备限制，但不包含官方云空间。电脑端账号有有效订阅或已买断时，显示“我的套餐”，点击打开网页版账号后台，无需再次登录；未购买时显示“前往购买”，点击进入套餐购买页。卡片突出当前套餐，集中展示套餐和订阅管理入口，并说明付款与续费的管理渠道。文件由应用直接写入你选择的存储服务商。
+
+在官网选择付费方案后，注册、邮箱验证和登录都会保留该选择。账号页显示所选方案，再点击“继续前往结账”进入付款；登录本身不会发起付款。
 
 网页版仪表盘的“账号概览”显示套餐、有效期、支付渠道和官方空间用量，可直接进入套餐管理。空间为空时可展开客户端设置说明；这里不统计本机或自备存储的数据。修改密码和删除账号位于“账号与安全”，条款与隐私保留独立入口。
 
@@ -86,9 +90,17 @@ Windows、macOS 和 Linux 可以把本机保存位置改到自己选择的文件
 
 ## 下载
 
-当前发布页提供 Windows、Linux 和 Android 安装包。Google Play 和 App Store 目前尚未上架：
+[官网下载区](https://mindlist.devinghub.com/zh#download)按系统、芯片架构和安装方式列出安装包，也可在 [GitHub Releases](https://github.com/huagelong/mindlist-releases/releases) 查看全部文件。
 
-<https://github.com/huagelong/mindlist-releases/releases>
+| 系统 | 安装包 |
+| --- | --- |
+| Windows | x64、ARM64；安装版或便携 ZIP |
+| macOS | Apple 芯片（ARM64）、Intel（x64）ZIP |
+| Linux | x86_64 AppImage 及兼容版；amd64/arm64 DEB；x86_64/aarch64 RPM |
+| Android | arm64-v8a、armeabi-v7a、x86_64 APK；多数手机使用 arm64-v8a |
+| iPhone / iPad | App Store 即将上线 |
+
+Google Play 也尚未上架。官网读取最新已发布版本，暂时无法加载安装包列表时，可通过发布页链接下载。
 
 请只从上面的页面下载。安装之后，可以在应用里检查更新；更新前会先确认安装包完整。
 

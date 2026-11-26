@@ -2,9 +2,11 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-Plan with tasks and a calendar, keep notes and collections close by. Your work stays on your device, and MindList works offline. Local use and free sync with your own storage do not require an account. A MindList account is needed for the one-time purchase that removes the custom sync device limit, or for a monthly official storage subscription.
+Most MindList features are free: tasks, projects, notes, collections, the calendar, and the focus timer. Use them locally without an account. Your work stays on your device, and MindList works offline. Free sync with your own storage does not require an account. A MindList account is needed for the one-time purchase that removes the custom sync device limit, or for a monthly official storage subscription.
 
 ## What you can do
+
+Screenshots show the current Windows interface with English sample content. The website provides screenshots for all nine interface languages, including the focus timer.
 
 ### Inbox and tasks
 
@@ -59,6 +61,8 @@ Tasks, notes, attachments, and collections are stored on your current device. Wi
 - **Official cloud storage.** Sign up with an email address and choose 1 GB for $5/month or 10 GB for $10/month; the checkout page shows the final price. Subscribe through the in-app payment page on desktop or the respective app store on mobile when available. Where Dodo billing is enabled, subscribers can switch between 1 GB and 10 GB on the account page. The updated account page shows the subscription status, why a change is blocked, and what to do next. Check again requests a fresh plan preview. Subscriptions scheduled to end can change plans while paid time remains and will keep automatic renewal off. An active subscription removes the device limit for both official and custom sync. Automatic sync checks for changes when the app opens and at the interval you set.
 - **Your own cloud storage.** Connect AWS S3, Cloudflare R2, Alibaba Cloud OSS, Tencent Cloud COS, or another S3-compatible service. Enter the connection details and test them before saving. MindList does not charge for custom sync, though your storage provider may. Without a one-time purchase or active official subscription, each sync space supports two devices. A $10 one-time purchase linked to your MindList account removes that limit; it does not include official storage. On desktop, accounts with an active subscription or a one-time purchase show My plan, which opens the account dashboard without another sign-in. Accounts without either show View purchase options, which opens the web plan page. The card highlights your current plan and groups the plan and subscription controls, with an explanation of where to manage payments and renewals. The app writes files directly to your provider.
 
+Choosing a paid plan on the website keeps that selection through registration, email verification, and login. The account page shows the selected plan and a separate checkout button; signing in does not start a payment.
+
 Account overview in the web dashboard shows your plan, expiry date, payment channel, and official storage use, with a link to manage your plan. An empty space includes expandable app setup instructions. Local data and custom storage are not counted here. Password changes and account deletion are under Account and security; terms and privacy have their own tab.
 
 Official storage offers six R2 locations. MindList tests them from your device, recommends the fastest result, and lets you choose another. Existing encrypted files are copied before the switch; if the move fails, the original location remains in use.
@@ -80,9 +84,19 @@ On Windows, macOS, and Linux, you can choose the local data folder. On mobile, t
 
 ## Download
 
-Installers for Windows, Linux, and Android are available on the [GitHub Releases page](https://github.com/huagelong/mindlist-releases/releases). Google Play and the App Store are coming soon.
+The [website download section](https://mindlist.devinghub.com/#download) offers packages by platform, architecture, and format. All published packages are also on [GitHub Releases](https://github.com/huagelong/mindlist-releases/releases).
 
-Download only from that page. MindList can check for updates in the app and verifies an installer before updating.
+| Platform | Packages |
+| --- | --- |
+| Windows | x64 or ARM64; installer or portable ZIP |
+| macOS | Apple silicon (ARM64) or Intel (x64) ZIP |
+| Linux | AppImage and compatibility AppImage for x86_64; DEB for amd64/arm64; RPM for x86_64/aarch64 |
+| Android | APK for arm64-v8a, armeabi-v7a, or x86_64; arm64-v8a suits most phones |
+| iPhone / iPad | App Store coming soon |
+
+Google Play is also coming soon. The website reads the latest published release; if it cannot load the package list, use the release-page link.
+
+Use the official website or release page to download MindList. The app can check for updates and verifies an installer before updating.
 
 ## Publishing
 
