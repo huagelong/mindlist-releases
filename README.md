@@ -8,7 +8,7 @@ MindList brings tasks, projects, notes, collections, and your calendar into one 
 
 ### Inbox and tasks
 
-Capture tasks as they come up, set priorities and due dates, and see today's and overdue work together. Search all tasks or filter them by project, tag, priority, and date.
+Capture tasks as they come up, set priorities and due dates, and see today's and overdue work together. Repeat a task daily, weekly, monthly, or yearly; completing it creates the next future occurrence. Search all tasks or filter them by project, tag, priority, and date.
 
 <img src="screenshots/inbox.png" alt="MindList task inbox" width="760">
 
@@ -46,6 +46,10 @@ Tasks, notes, attachments, and collections are stored on your current device. Wi
 
 - **Official cloud storage.** Sign up with an email address and subscribe to 1 GB for $5/month or 10 GB for $10/month; the checkout page shows the final price. Subscribe through the in-app payment page on desktop or the respective app store on mobile when available. Official storage works across your devices without the two-device limit. With automatic sync enabled, updates from other devices arrive as soon as possible; the app also retries when opened or at the configured interval after background or network interruptions.
 - **Your own cloud storage.** No account is needed. Connect AWS S3, Cloudflare R2, Alibaba Cloud OSS, or Tencent Cloud COS. MindList does not charge for this option, and each sync space supports up to two devices. The app writes files directly to your storage provider.
+
+Official storage offers six R2 locations. MindList tests them from your device, recommends the fastest result, and lets you choose another. Existing encrypted files are copied when you change locations.
+
+If an app update changes the sync data format, an older cloud space may need force alignment before normal sync resumes. In sync settings, choose **Force-align sync**, then select the data to keep: this device or the remote space. MindList creates an encrypted local backup first; data found only on the other side will be replaced.
 
 On Windows, macOS, and Linux, you can choose the local data folder. On mobile, the operating system provides the app's storage location.
 
