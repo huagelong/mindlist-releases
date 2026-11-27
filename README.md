@@ -14,7 +14,7 @@ Capture tasks as they come up, set priorities and due dates, and see today's and
 
 On desktop, double tap Shift to search across tasks, projects, collections, entries, and notes. Use the arrow keys to choose a result and Enter to open it. Page searches still filter the current list.
 
-On Windows and Linux, the + button for new tasks is a filled circle in the theme color, just before Search in the window title bar. It remains available when the sidebar is hidden. On macOS, it stays at the top of the sidebar. You can also use the new-task shortcut (Ctrl+N by default) or the New task button in an empty inbox. The desktop inbox keeps search, filters, and bulk actions above the list, without a separate quick-create bar. Android and iOS keep their existing creation controls.
+On Windows and Linux, the + button for new tasks has a light theme-colored background and rounded corners. It sits just before Search in the window title bar and remains available when the sidebar is hidden. On macOS, it stays at the top of the sidebar. You can also use the new-task shortcut (Ctrl+N by default) or the New task button in an empty inbox. The desktop inbox keeps search, filters, and bulk actions above the list, without a separate quick-create bar. Android and iOS keep their existing creation controls.
 
 <img src="screenshots/inbox.png" alt="MindList task inbox" width="760">
 
@@ -35,6 +35,8 @@ On desktop, the text in notes, tasks, and collection entries is centered and lim
 ### Collections
 
 Keep meeting agendas, handoff notes, reference material, and checklists together in collections.
+
+Switch between a collection board, a cross-collection list sorted by recent updates, and a workspace for one collection at a time. The workspace shows entries in their saved order. On wide screens, edit rich text, images, and attachments directly in the right pane; changes are saved before switching entries, collections, or views. Smaller screens use the entry editor dialog.
 
 <img src="screenshots/collections.png" alt="MindList collections" width="760">
 
