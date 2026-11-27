@@ -46,7 +46,7 @@ Tasks with due times can remind you about an hour beforehand. On mobile, reminde
 
 The interface supports Simplified Chinese, Traditional Chinese, English, Japanese, Korean, German, French, Spanish, and Portuguese. Light, dark, and several additional appearance themes are available.
 
-The [help center](https://mindlist.devinghub.com/help) has a guide and product screenshots for each interface language. Open Help in the app to see the guide in your selected language.
+The [help center](https://mindlist.devinghub.com/help) has step-by-step desktop guides with screenshots generated from the current app in each interface language. Each chapter links back to the guide and has a topic menu. Select a screenshot to view it at full size. Open Help in the app to see the guide in your selected language.
 
 ### Focus timer
 
