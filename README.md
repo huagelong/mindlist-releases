@@ -28,6 +28,8 @@ Break a larger goal into steps and track them on a board. New projects start wit
 
 Keep briefs, decisions, and the details behind your tasks. Organize notes in folders, use headings, lists, tables, images, and attachments, and export them as PDF, Word, Markdown, or HTML.
 
+On desktop, the text in notes, tasks, and collection entries is centered and limited to 800 dp by default. Full width is available in Settings.
+
 <img src="screenshots/notes.png" alt="MindList note editor" width="760">
 
 ### Collections
