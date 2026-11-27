@@ -2,7 +2,7 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-Most MindList features are free: tasks, projects, notes, collections, the calendar, and the focus timer. Use them locally without an account. Your work stays on your device, and MindList works offline. Free sync with your own storage does not require an account. A MindList account is needed for the one-time purchase that removes the custom sync device limit, or for a monthly official storage subscription.
+MindList's tasks, projects, notes, collections, calendar, and focus timer are free to use locally without an account. Your work stays on your device, and MindList works offline. Free sync with your own storage does not require an account. A MindList account is needed for the one-time purchase that removes the custom sync device limit, or for a monthly official storage subscription.
 
 ## What you can do
 

@@ -2,7 +2,7 @@
 
 [English](README.md) | **简体中文**
 
-MindList 的大部分功能免费使用：任务、项目、笔记、合集、日历和番茄时钟，本机使用都不需要账号。当前发布页提供 Windows、macOS、Linux 和 Android 安装包。
+MindList 的任务、项目、笔记、合集、日历和番茄时钟在本机可免费使用，无需账号。当前发布页提供 Windows、macOS、Linux 和 Android 安装包。
 
 内容保存在你的设备上，断网也能使用。本机使用和免费连接自备存储都不需要账号；购买自定义同步的不限设备权益或订阅官方云空间时，需要注册 MindList 账号。
 
